@@ -1,4 +1,4 @@
-package io.qameta.allure.examples.cucumber5;
+package com.example.cucumberjvm.steps;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -8,9 +8,6 @@ import java.util.Random;
 
 import static org.testng.Assert.assertEquals;
 
-/**
- * @author eroshenkoam (Artem Eroshenko).
- */
 public class WebSteps {
 
     @When("^I open labels page$")

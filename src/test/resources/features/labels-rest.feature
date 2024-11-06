@@ -1,7 +1,4 @@
-#language: en
-#@allure.label.layer:rest
-#@allure.label.owner:eroshenkoam
-#@allure.label.url:/repos/{owner}/{repo}/labels
+@allure.label.owner:baev
 Feature: Labels
 
   @smoke
@@ -10,7 +7,6 @@ Feature: Labels
     Then I should see label with title "hello" via api
 
   @regress
-  #@allure.label.jira:AE-1
   Scenario: Delete existing label via api
     When I create label with title "hello" via api
     And I delete label with title "hello" via api

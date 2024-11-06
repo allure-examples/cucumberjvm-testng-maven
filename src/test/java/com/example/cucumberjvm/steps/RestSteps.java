@@ -1,4 +1,4 @@
-package io.qameta.allure.examples.cucumber5;
+package com.example.cucumberjvm.steps;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
